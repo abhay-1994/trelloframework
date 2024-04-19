@@ -20,7 +20,8 @@ public class ScrollingActionUsingJSE {
 		actions.sendKeys("India").sendKeys(Keys.ENTER).perform();
 		JavascriptExecutor jSE = (JavascriptExecutor)driver;
 		jSE.executeScript("window.scrollby(0,1000)");
-		
+
+		//Completed
 				
 	}
 
